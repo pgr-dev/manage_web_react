@@ -1,0 +1,25 @@
+.section1{
+    width:calc(100% - 500px);
+    margin:10px;
+    padding: 10px 20px;
+    border:solid 1px black;
+}
+
+
+.section2{
+    width:500px;
+    min-width:500px;
+    margin:10px;
+
+    border:solid 1px black;
+}
+
+.section1, .section2{ overflow:scroll;}
+.section1::-webkit-scrollbar { display: none; }
+.section2::-webkit-scrollbar {display: none; }
+
+.ListTable{
+    width:100%;
+    text-align: center;
+    padding:10px;
+}

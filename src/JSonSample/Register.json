@@ -1,0 +1,44 @@
+{
+    "restaurants": [
+      {
+        "marker": {
+          "LatLng" : {
+            "latitude": 35.22977,
+            "longitude": 126.845971
+          }
+        },
+        "address": "Gwangju",
+        "id": 1023,
+        "order": 1,
+        "name": "Star Wars",
+        "branch_name": "Chumdan",
+        "status": {
+          "possible_review_type": "000",
+          "registered_reivew_type": "000"
+        },
+        "reviewer":"Mr.Kim",
+        "date":"2019/06/25"
+        
+      },
+      {
+        "marker": {
+          "LatLng" : {
+            "latitude": 35.22977,
+            "longitude": 126.845971
+          }
+        },
+        "address": "Gwangju",
+        "id": 1023,
+        "order": 1,
+        "name": "Star Wars",
+        "branch_name": "Chumdan",
+        "status": {
+          "possible_review_type": "000",
+          "registered_reivew_type": "000"
+        },
+        "reviewer":"Mr.Kim",
+        "date":"2019/06/25"
+        
+      }
+    ]
+  }

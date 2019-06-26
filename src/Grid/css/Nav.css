@@ -1,0 +1,48 @@
+/*
+색 설정
+검은색 : #303030
+회색 : #F5F5F5
+글씨체 : notosanze - pass 
+ */
+/*css for nav*/
+
+.mypage{
+    float: right;
+    width:400px;
+    height:60px;
+    margin: 10px;
+
+    border:1px solid black;
+}
+.general_nav{
+    float:left;
+    height:60px;
+    width:100%;
+    margin: 10px;
+    overflow: hidden;
+
+    border:1px solid black;
+}
+
+.nav_item.button {    
+    float: left;
+
+    width:100px;
+    height:60px;
+    margin: 4px 2px;
+
+    background:none;
+    border: none;
+    outline:none;
+
+    text-align:center;
+    color:black;
+    font-size:27px;
+
+    object-fit: contain;
+    cursor: pointer;
+
+}
+.nav_item.button.active{
+    color:blue;
+}

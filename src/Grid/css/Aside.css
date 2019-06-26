@@ -1,0 +1,28 @@
+.Aside{
+    margin:10px;
+    height:100%;
+    border:solid 1px black;
+}
+
+.aside_item.button{
+    width:180px;
+    height:30px;
+    padding-left:40px;
+    
+    background:none;
+    border:none;
+    outline:none;
+
+    text-align:left;
+    color:black;
+    font-size:15px;
+    overflow:hidden;
+
+    object-fit:contain;
+    cursor:pointer;
+    
+}
+.aside_item.button.active{
+    color:blue;
+}
+
