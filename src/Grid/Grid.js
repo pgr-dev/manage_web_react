@@ -6,12 +6,19 @@ import Aside from './Aside'
 import Section from './Section'
 
 class Grid extends Component{
-    state = {
-        nav_selector: "1",
-        aside_selector:"11"
+    constructor(){
+        super();
+        this.state = {
+            nav_selector: "1",
+            aside_selector:"11"
+        };
+
+        this.setStateNav=this.setStateNav.bind(this);
+        this.setStateAside=this.setStateAside.bind(this);
     }
 
-    setStateNav = (data)=>{
+
+    setStateNav(data){
         this.setState({
             nav_selector:data
         });
@@ -19,7 +26,7 @@ class Grid extends Component{
             aside_selector:data+"1"
         });
     }
-    setStateAside = (data)=>{
+    setStateAside(data){
         this.setState({
             aside_selector:data
         });

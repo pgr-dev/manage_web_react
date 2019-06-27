@@ -5,17 +5,26 @@ const nav_informations = [
     {id:"2", name:'준비중'}];
 
 class Nav extends Component{
+    constructor(){
+        super();
+        this.setNav=this.setNav.bind(this);
+    }
 
-    setNav =(e)=>
+    setNav(e)
     {
         this.props.setStateNav(e.target.value);
     }
+
     render(){
         const nav_elements = nav_informations.map((item)=>{
             if(item.id===this.props.nav_selector)// to check active element
-                {return <button className="nav_item button active" key={item.id} value={item.id} onClick={this.setNav}>{item.name}</button>   }
+                {return <button className="nav_item button active"
+                 key={item.id} value={item.id} onClick={this.setNav}>
+                 {item.name}</button>   }
             else
-            {return <button className="nav_item button" key={item.id} value={item.id} onClick={this.setNav}>{item.name}</button>   }
+            {return <button className="nav_item button"
+             key={item.id} value={item.id} onClick={this.setNav}>
+             {item.name}</button>   }
         });
         
 
